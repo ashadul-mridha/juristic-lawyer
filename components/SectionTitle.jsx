@@ -18,6 +18,7 @@ const SectionTitle = ({ data, titleWhite, smallTitle }) => {
             font-size: 30px;
             font-width: 500px;
             cursor: pointer;
+            margin-bottom: 10px;
           }
           .section-title-content h6 {
             font-size: 20px;

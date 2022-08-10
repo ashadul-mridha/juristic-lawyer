@@ -45,7 +45,7 @@ const AboutUs = () => {
         `}</style>
         <div className="container">
           <SectionTitle data={sectionTitle} />
-          <div className="row py-4">
+          <div className="row g-3 py-4">
             {data.map((item, index) => (
               <div key={index} className="col-lg-3">
                 <AboutUsCard data={item} />

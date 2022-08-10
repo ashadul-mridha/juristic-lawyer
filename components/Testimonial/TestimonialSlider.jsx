@@ -9,11 +9,17 @@ const TestimonialSlider = ({ pagination }) => {
     <>
       <Swiper
         spaceBetween={10}
-        slidesPerView={2}
+        slidesPerView={1}
         loop={true}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
+        }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
         }}
         pagination={pagination}
         modules={[Pagination]}

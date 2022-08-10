@@ -37,6 +37,11 @@ const HeroSection = () => {
               margin-top: 15px;
               margin-bottom: 15px;
             }
+            @media screen and (max-width: 768px) {
+              .herosectionWrapperContent h2 {
+                font-size: 50px;
+              }
+            }
           `}</style>
           <div className="container">
             <div className="row">

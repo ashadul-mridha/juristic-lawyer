@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavbarWithDropDown() {
   return (
-    <Navbar className="navbarHeader py-3" expand="lg">
+    <Navbar className="navbarHeader py-3" expand="lg" variant="dark">
       <Container>
         <Navbar.Brand href="#home">
           <img
