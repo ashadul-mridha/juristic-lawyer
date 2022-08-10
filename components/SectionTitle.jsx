@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SectionTitle = ({ data, titleWhite }) => {
+const SectionTitle = ({ data, titleWhite, smallTitle }) => {
   return (
     <>
       <div className="row">
@@ -37,16 +37,16 @@ const SectionTitle = ({ data, titleWhite }) => {
             color: #ffffff;
           }
           .section-title-content p {
-            font-size: 14px;
+            font-size: 17px;
             font-weight: 400;
             font-family: "Roboto", sans-serif;
             color: #79859f;
           }
         `}</style>
-        <div className="col-lg-1">
+        <div className={smallTitle === "smallTitle" ? "col-lg-2" : "col-lg-1"}>
           <div className="logo">{data.icon && data.icon}</div>
         </div>
-        <div className="col-lg-11">
+        <div className={smallTitle === "smallTitle" ? "col-lg-10" : "col-lg-11"}>
           <div className="section-title-content">
             <h6>{data.title && data.title}</h6>
             <h2 className={titleWhite}>{data.subTitle && data.subTitle}</h2>

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -15,25 +15,24 @@ a {
   box-sizing: border-box;
 }
 
-.btn__primary{
+.btn__primary {
   padding: 12px 20px;
-  background-color: #C9B38C;
+  background-color: #c9b38c;
   color: #fff;
   font-size: 15px;
   font-weight: 400;
   text-transform: capitalize;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: none;
   margin-top: 8px;
 }
 
-.btn__primary:hover{
+.btn__primary:hover {
   background-color: #ab8544;
 }
 
-
 /* navbar  */
-.navbarHeader{
+.navbarHeader {
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -41,9 +40,30 @@ a {
   /* padding: 20px 0px; */
 }
 
-.navbarHeader__item , .navbarHeader__item > a {
+.navbarHeader__item,
+.navbarHeader__item > a {
   font-size: 16px !important;
   font-weight: 400 !important;
   color: white !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* client pagination style  */
+
+.paginationWrapper > .my-custom-pagination-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.swiper-pagination-bullet {
+  background-color: #c9b38c !important;
+  font-size: 2rem;
+  margin: 0px 2px !important;
+  opacity: 0.5 !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  width: 30px;
+  border-radius: 28px;
 }
