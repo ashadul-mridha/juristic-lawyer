@@ -1,5 +1,6 @@
 import AboutUs from "../components/AboutUs";
 import ExpertAt from "../components/ExpertAt";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import LawPlan from "../components/LawPlan";
 import MakeAnAppoinment from "../components/MakeAnAppoinment";
@@ -16,6 +17,7 @@ export default function Home() {
       <ExpertAt />
       <OurClient />
       <MakeAnAppoinment/>
+      <Footer />
     </>
   )
 }
