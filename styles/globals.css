@@ -30,6 +30,22 @@ a {
 .btn__primary:hover {
   background-color: #ab8544;
 }
+.btn__secondary {
+  padding: 15px 25px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-top: 8px;
+}
+
+.btn__secondary:hover {
+  background-color: #ab8544;
+  color: #ffffff;
+}
 
 /* navbar  */
 .navbarHeader {
