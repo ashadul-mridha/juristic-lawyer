@@ -9,7 +9,7 @@ const TestimonialSlider = ({ pagination }) => {
     <>
       <Swiper
         spaceBetween={10}
-        slidesPerView={1}
+        slidesPerView="auto"
         loop={true}
         autoplay={{
           delay: 2000,
