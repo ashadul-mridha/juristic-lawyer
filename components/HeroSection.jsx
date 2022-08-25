@@ -1,7 +1,11 @@
 import React from 'react';
+import { useRouter } from "next/router";
 import NavbarWithDropDown from './Navbar/Navbar';
 
 const HeroSection = () => {
+  
+  const router = useRouter();
+
     return (
       <>
         <div className="herosectionWrapper">
@@ -52,7 +56,12 @@ const HeroSection = () => {
                     our Independence <br /> makes the difference
                   </h2>
                   <p>Nationally Estabilished. International Recognized</p>
-                  <button className="btn__primary">Free Consultration</button>
+                  <button
+                    onClick={() => router.push("/consultancy-form")}
+                    className="btn__primary"
+                  >
+                    Request For Consultration
+                  </button>
                 </div>
               </div>
             </div>

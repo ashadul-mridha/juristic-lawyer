@@ -15,8 +15,12 @@ a {
   box-sizing: border-box;
 }
 
+.paddingY{
+  padding: 80px 0px;
+}
+
 .btn__primary {
-  padding: 12px 20px;
+  padding: 18px 25px;
   background-color: #c9b38c;
   color: #fff;
   font-size: 15px;
@@ -25,6 +29,7 @@ a {
   font-family: "Roboto", sans-serif;
   border: none;
   margin-top: 8px;
+  border-radius: 50px;
 }
 
 .btn__primary:hover {
@@ -62,7 +67,13 @@ a {
   font-weight: 400 !important;
   color: white !important;
   font-family: "Roboto", sans-serif;
+  margin: 0px 5px;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 
 /* client pagination style  */
 
